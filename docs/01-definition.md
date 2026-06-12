@@ -42,8 +42,7 @@ El admin puede aprobar o rechazar la verificación. Los consumidores ven un dist
 
 | Componente | Tecnología |
 |------------|------------|
-| App Mobile | **React Native** (iOS + Android) |
-| Panel Admin | **Web** (React/Next.js) — solo para el rol Admin |
+| App Mobile | **React Native** (iOS + Android) — incluye todos los roles: Consumidor, Purificador, Repartidor y Admin |
 | Backend | API REST + WebSockets (Node.js con NestJS) |
 | Base de datos | **MongoDB** con **Mongoose** ODM |
 | Tiempo real | WebSockets (Socket.io) |
@@ -378,7 +377,7 @@ Cada modo es una vista/experiencia diferente dentro de la misma app. Al abrir la
 - **Inventario propio**: marcar cuántos garrafones de cada tipo/tamaño lleva disponibles en tiempo real. El sistema solo le notifica pedidos que pueda cumplir según su inventario declarado.
 - Escanear código QR del consumidor para confirmar identidad al entregar.
 
-### Modo Admin (Web)
+### Modo Admin
 - Dashboard con métricas y gráficas:
   - Usuarios registrados (totales, nuevos hoy/semana/mes).
   - Pedidos por día, semana, mes.
